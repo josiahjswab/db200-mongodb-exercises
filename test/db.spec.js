@@ -2,7 +2,7 @@ const path = require('path');
 const expect = require('chai').expect;
 const MongoClient = require('mongodb').MongoClient;
 
-var url = 'mongodb://localhost:27017/mongo_exercises';
+var url = 'mongodb://localhost:27017/mongo_excercises';
 
 describe('Mongo Exercises collection', function main() {
   this.timeout(12000);
